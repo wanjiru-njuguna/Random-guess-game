@@ -7,6 +7,7 @@ if upper_bound.isdigit():
     upper_bound = int(upper_bound)
 else:
     print("Please enter a digit next time. ")
+    quit()
 
 random_number = random.randint(0,upper_bound)
 
